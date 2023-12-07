@@ -65,7 +65,7 @@ x, y = zip(*most_common)
 
 plt.bar(x, y)
 plt.xlabel('x')
-plt.xticks(rotation=45, ha='right')
+plt.xticks(rotation=20, ha='right')
 plt.ylabel('Number of word occurrences')
 plt.title('Top 10 occurrences of words with two conditions')
 plt.savefig('Top 10 occurrences of words with two conditions')
