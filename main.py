@@ -18,7 +18,7 @@ for line in lines:
             word_count_1 += 1
             word_list_1.append(word)
 
-sentence_1 = "Number of words that are at least 4 letters long:"
+sentence_1 = 'Number of words that are at least 4 letters long:'
 print(sentence_1,word_count_1)
 print(word_list_1)
 
